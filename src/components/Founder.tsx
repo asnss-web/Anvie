@@ -1,21 +1,4 @@
-const ImgPlaceholder = () => (
-  <div className="img-placeholder">
-    <svg viewBox="0 0 400 500" preserveAspectRatio="xMidYMid slice">
-      <defs>
-        <radialGradient id="fpg" cx="30%" cy="30%">
-          <stop offset="0%" stopColor="#D6B37A" stopOpacity="0.15" />
-          <stop offset="100%" stopColor="transparent" />
-        </radialGradient>
-      </defs>
-      <rect width="400" height="500" fill="url(#fpg)" />
-      {Array.from({ length: 30 }).map((_, i) => (
-        <line key={i} x1="0" y1={i * 18} x2="400" y2={i * 18 - 30} stroke="#D6B37A" strokeWidth="0.4" opacity="0.06" />
-      ))}
-    </svg>
-    <div className="img-placeholder__label">&#123; Founder portrait &#125;</div>
-    <div className="img-placeholder__hint">drop image here</div>
-  </div>
-);
+import Image from "next/image";
 
 export default function Founder() {
   return (
@@ -23,7 +6,12 @@ export default function Founder() {
       <div className="container">
         <div className="founder">
           <div className="founder__photo">
-            <ImgPlaceholder />
+            <Image
+              src="/Anvie/founder-portrait.png"
+              alt="Anvié — Founder"
+              fill
+              style={{ objectFit: "cover", objectPosition: "center top" }}
+            />
           </div>
           <div className="founder__copy">
             <span className="eyebrow" style={{ color: "var(--champagne)" }}>03 — The Founder</span>
