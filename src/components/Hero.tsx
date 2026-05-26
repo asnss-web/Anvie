@@ -1,23 +1,5 @@
 "use client";
-
-const ImgPlaceholder = ({ label }: { label: string }) => (
-  <div className="img-placeholder">
-    <svg viewBox="0 0 400 500" preserveAspectRatio="xMidYMid slice">
-      <defs>
-        <radialGradient id="pg" cx="30%" cy="30%">
-          <stop offset="0%" stopColor="#D6B37A" stopOpacity="0.18" />
-          <stop offset="100%" stopColor="transparent" />
-        </radialGradient>
-      </defs>
-      <rect width="400" height="500" fill="url(#pg)" />
-      {Array.from({ length: 30 }).map((_, i) => (
-        <line key={i} x1="0" y1={i * 18} x2="400" y2={i * 18 - 30} stroke="#D6B37A" strokeWidth="0.4" opacity="0.06" />
-      ))}
-    </svg>
-    <div className="img-placeholder__label">&#123; {label} &#125;</div>
-    <div className="img-placeholder__hint">drop image here</div>
-  </div>
-);
+import Image from "next/image";
 
 export default function Hero() {
   const scrollTo = (id: string) =>
@@ -54,7 +36,13 @@ export default function Hero() {
 
           <div className="hero__visual">
             <div className="hero__photo">
-              <ImgPlaceholder label="Editorial hero portrait" />
+              <Image
+                src="/Anvie/hero-portrait.png"
+                alt="Anvié — Editorial portrait"
+                fill
+                style={{ objectFit: "cover", objectPosition: "center top" }}
+                priority
+              />
             </div>
             <div className="hero__caption">
               <div className="hero__cap-quote">&ldquo;Not a course. <em>A new English-speaking life.</em>&rdquo;</div>
