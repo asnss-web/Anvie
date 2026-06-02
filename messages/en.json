@@ -1,0 +1,284 @@
+{
+  "meta": {
+    "title": "Anvié — Start living in English",
+    "description": "Anvié is a premium English-speaking space with speaking practice, community, buddy-system, live feedback and personal growth through real communication."
+  },
+  "nav": {
+    "tag": "English space",
+    "concept": "Concept",
+    "method": "Method",
+    "founder": "Founder",
+    "formats": "Formats",
+    "voices": "Voices",
+    "apply": "Apply to join"
+  },
+  "hero": {
+    "eyebrow": "Premium English Lifestyle Space · Est. 2026",
+    "titleLine1": "Start living",
+    "titleEm": "in",
+    "titleLine2": "English.",
+    "sub": "Anvié is not another school. It's an environment where speaking becomes natural, community becomes home, and English becomes the language of the life you actually want.",
+    "ctaPrimary": "Choose your format",
+    "ctaGhost": "Apply to join",
+    "statsFormats": "Formats",
+    "statsMentors": "Mentors",
+    "statsCommunity": "Community",
+    "statsElite": "Elite spots / mo",
+    "caption": "Not a course. A new English-speaking life.",
+    "capMeta": "No. 01 — The Space"
+  },
+  "problem": {
+    "eyebrow": "01 — The Problem",
+    "titleLine1": "You don't need",
+    "titleLine2": "another textbook.",
+    "titleEm": "You need an environment.",
+    "lede": "Most people already know enough English to start speaking — fear, missing practice, and school-shaped formats are what keep them stuck. Anvié replaces all of it with one thing: an environment.",
+    "cards": [
+      {
+        "n": "01",
+        "t": "You understand, but freeze when speaking.",
+        "b": "You know the grammar. You read articles. But the moment a real conversation starts, your tongue forgets the words it knew yesterday."
+      },
+      {
+        "n": "02",
+        "t": "You study, but never actually use it.",
+        "b": "Apps, courses, textbooks, marathons — and yet English still lives in a separate folder of your brain, not in your daily life."
+      },
+      {
+        "n": "03",
+        "t": "You want confidence, not more grammar stress.",
+        "b": "What you need isn't another lesson. It's a place where English is the air you breathe — without pressure, judgement, or school flashbacks."
+      }
+    ]
+  },
+  "whatis": {
+    "eyebrow": "02 — The Concept",
+    "titleLine": "A space where English becomes part of",
+    "titleEm": "your identity.",
+    "intro": "Anvié is built like a small private club, not a classroom. Eight integrated elements work together to move English from something you study into something you live.",
+    "items": [
+      { "n": "i",    "name": "Speaking sessions",   "d": "Small live groups where you actually talk — not just listen." },
+      { "n": "ii",   "name": "Buddy system",        "d": "Paired weekly with another participant for outside-class practice." },
+      { "n": "iii",  "name": "Real-life homework",  "d": "Voice tasks tied to your day, not abstract drills." },
+      { "n": "iv",   "name": "Chat practice",       "d": "An always-on community chat that runs in English." },
+      { "n": "v",    "name": "Films & culture",     "d": "Real English from movies, songs, slang, idioms — alive language." },
+      { "n": "vi",   "name": "Pronunciation work",  "d": "Specific feedback on accent, intonation, melody." },
+      { "n": "vii",  "name": "Personal feedback",   "d": "Notes on your voice messages, weekly. From a human." },
+      { "n": "viii", "name": "Community",           "d": "International peers building the same English-speaking life as you." }
+    ]
+  },
+  "founder": {
+    "eyebrow": "03 — The Founder",
+    "sig": "Anvié is built by a person, not a company.",
+    "titleLine1": "Created by someone who knows what English",
+    "titleEm": "can change.",
+    "body1Pre": "I learned English the way most people do — between apps, podcasts, and quiet evenings rehearsing conversations I would never actually have. Years passed and the language was always",
+    "bodyEm": "almost",
+    "body1Post": "there.",
+    "body2": "Then I moved abroad, started working with an American mentor, and English stopped being a subject. It became a passport — to friends, to work, to a version of myself I couldn't reach in any other language.",
+    "body3": "Anvié exists because I want that shift to take less time, and feel like belonging — not like a struggle.",
+    "statYearsLabel": "Years teaching",
+    "statYears": "8",
+    "statBasedLabel": "Based",
+    "statBased": "EU · US",
+    "statMentorLabel": "Mentor",
+    "statMentor": "NYC, USA"
+  },
+  "method": {
+    "eyebrow": "04 — The Method",
+    "titleLine1": "How you start speaking —",
+    "titleEm": "naturally.",
+    "count": "Five elements · One environment",
+    "steps": [
+      { "n": "01", "name": "Mini-groups",            "d": "Small live circles (4–6 people) where the only way to be in the room is to speak. No hiding behind chat boxes.", "tag": "Weekly · 60 min" },
+      { "n": "02", "name": "Buddy system",           "d": "Paired with one participant per cycle for outside-session calls, voice notes, and shared practice goals.", "tag": "Outside class" },
+      { "n": "03", "name": "Voice homework",         "d": "Short voice tasks tied to your week — your coffee order, your day, your opinion. English in your real life.", "tag": "Daily · Async" },
+      { "n": "04", "name": "Personal feedback",      "d": "Human review of your voice messages: pronunciation, melody, the exact word that almost landed. Weekly notes.", "tag": "Weekly review" },
+      { "n": "05", "name": "Culture & real English", "d": "Films, songs, slang, idioms, the way people actually talk after midnight in a New York bar. Living language, not curriculum.", "tag": "Monthly" }
+    ]
+  },
+  "compare": {
+    "eyebrow": "05 — The Difference",
+    "titleLine1": "Not a mass school.",
+    "titleLine2": "Not a recorded course.",
+    "titleEm": "An environment.",
+    "schoolH": "The typical school",
+    "anvieH": "Anvié,",
+    "anvieHEm": "instead",
+    "school": [
+      "Same program for everyone",
+      "School atmosphere",
+      "Little real speaking time",
+      "No community outside lessons",
+      "Teacher-centered",
+      "Focus on rules, not voice"
+    ],
+    "anvie": [
+      "Adaptive formats — fitted to you",
+      "Premium, intimate community",
+      "Constant speaking + buddy practice",
+      "Always-on chat & cinema nights",
+      "You-centered — your goals, your life",
+      "Real communication first"
+    ]
+  },
+  "tariffs": {
+    "eyebrow": "06 — The Formats",
+    "titleLine1": "Choose the English environment that matches",
+    "titleEm": "your next level.",
+    "intro": "Five formats, one community. Pick the depth — group practice, mentorship, or full immersion. Every tier shares the same atmosphere; the difference is how close you sit to it.",
+    "perMonth": "/ month",
+    "resultLabel": "The result",
+    "popularBadge": "Most chosen · Optimal",
+    "list": [
+      {
+        "id": "BASE",   "price": 150,
+        "sub": "Start regularly",
+        "for": "For those who want to start speaking regularly and stop learning chaotically.",
+        "features": [
+          "2 group speaking sessions / week",
+          "Group chat (always-on English)",
+          "Access to materials",
+          "Buddy system pairing",
+          "Speaking homework",
+          "Supportive environment"
+        ],
+        "result": "Regular practice, first speaking confidence, English becomes part of life."
+      },
+      {
+        "id": "SPACE",  "price": 200,
+        "sub": "Structure + feedback",
+        "for": "For those who want more structure, real practice, and personal feedback.",
+        "features": [
+          "Everything in BASE",
+          "3 group sessions / week",
+          "Monthly voice feedback",
+          "Pronunciation work",
+          "Speech error correction",
+          "Monthly cinema night"
+        ],
+        "result": "Faster growth, better pronunciation, natural understanding of real English."
+      },
+      {
+        "id": "GROWTH", "price": 300, "popular": true,
+        "sub": "Mentored progress",
+        "for": "For faster progress and personal attention — while staying inside the community.",
+        "features": [
+          "Everything in SPACE",
+          "Up to 4 sessions / week",
+          "Choose group or 1:1 format",
+          "1:1 with project teacher",
+          "Weekly feedback",
+          "Goal-based learning path"
+        ],
+        "result": "Faster results, personal direction, balance of group practice and individual work."
+      },
+      {
+        "id": "PRIVATE", "price": 400,
+        "sub": "Personal experience",
+        "for": "For those who want personal transformation through English.",
+        "features": [
+          "Everything from previous",
+          "Up to 5 sessions / week",
+          "1:1 with founder",
+          "1:1 with project teacher",
+          "Adapted format around your life",
+          "Lessons from your favourite films",
+          "Cinema sessions every 1–2 weeks",
+          "Culture & song immersion"
+        ],
+        "result": "A personal English system built around your lifestyle, taste and goals."
+      },
+      {
+        "id": "ELITE",  "price": 500, "elite": true,
+        "sub": "Full immersion",
+        "for": "For a serious goal — relocation, international career, a new level of life.",
+        "features": [
+          "Everything in PRIVATE",
+          "Full founder support",
+          "Private chat (6 days / week)",
+          "Daily voice message correction",
+          "Weekly session with native speaker",
+          "American English mentor",
+          "Slang, abbreviations, natural phrasing",
+          "Personal content selection",
+          "Priority support"
+        ],
+        "result": "Not just learning. Full English-speaking support and deep immersion."
+      }
+    ]
+  },
+  "whofor": {
+    "eyebrow": "07 — The People",
+    "title": "Anvié is",
+    "titleEm": "for you",
+    "titleEnd": " if…",
+    "items": [
+      "You live abroad but still avoid speaking in real life.",
+      "You want to travel freely — and not rehearse a sentence in the airport.",
+      "You're aiming at an international career or remote-first work.",
+      "You're tired of school-like English and ready for something alive.",
+      "You want a community — not just a teacher behind a screen.",
+      "You want English to feel natural, stylish, and yours."
+    ]
+  },
+  "reviews": {
+    "eyebrow": "08 — The Voices",
+    "titleLine1": "Early stories from",
+    "titleEm": "the space.",
+    "list": [
+      { "mark": "Lena",   "role": "Berlin · Designer",    "text": "I'd done courses for years. After three weeks at Anvié I was speaking — not perfectly, but actually speaking, in real conversations. The buddy system changed everything." },
+      { "mark": "Maya",   "role": "Lisbon · IT",          "text": "It feels like a small club. The chat runs in English from morning to night and somehow that makes the language not scary anymore." },
+      { "mark": "Sasha",  "role": "Toronto · Marketing",  "text": "I expected lessons. I got an environment. After two months I caught myself thinking in English on the metro and laughing about it." },
+      { "mark": "Karina", "role": "Dubai · Founder",      "text": "The Elite format is wildly worth it. Daily voice feedback rewires how you actually sound — not how you look on paper." }
+    ]
+  },
+  "finalcta": {
+    "eyebrow": "09 — The Application",
+    "titleLine1": "Choose the English environment that matches",
+    "titleEm": "your next level.",
+    "sub": "Apply and we'll help you pick the format that fits your goals, your lifestyle, and your current level. Every application is read personally.",
+    "contactEmail": "hello@anvie.space",
+    "contactSocial": "@anvie.space — Telegram & Instagram",
+    "contactMembers": "Members across EU, UK, US, AE",
+    "formH": "Apply to join",
+    "formHEm": "Anvié.",
+    "labelName": "Name",
+    "placeholderName": "First name",
+    "labelContact": "Instagram / Telegram",
+    "placeholderContact": "@you",
+    "labelCountry": "Country / city",
+    "placeholderCountry": "Berlin · DE",
+    "labelWhen": "Start when?",
+    "labelLevel": "Current English level",
+    "labelFormat": "Preferred format",
+    "labelGoal": "Your main goal",
+    "placeholderGoal": "Relocation · career · travel · confidence…",
+    "labelProblem": "Biggest speaking problem",
+    "placeholderProblem": "What blocks you most right now?",
+    "submit": "Apply to join",
+    "whens": ["ASAP", "This month", "Next month", "Just exploring"],
+    "successH": "Application received.",
+    "successP": "We'll write back within 24 hours to find the right format for you. — A."
+  },
+  "footer": {
+    "tag": "A premium English-speaking space. Live conversation, real community, a language that actually becomes part of your life.",
+    "spaceH": "Space",
+    "spaceConcept": "Concept",
+    "spaceMethod": "Method",
+    "spaceFounder": "Founder",
+    "spaceFormats": "Formats",
+    "joinH": "Join",
+    "joinApply": "Apply",
+    "joinVoices": "Voices",
+    "joinFormats": "Formats",
+    "joinBook": "Book a call",
+    "reachH": "Reach",
+    "reachIG": "Instagram",
+    "reachTG": "Telegram",
+    "reachTT": "TikTok",
+    "reachEmail": "Email",
+    "copy": "Anvié — All rights reserved",
+    "made": "Made with attention · Berlin · Lisbon · NYC"
+  }
+}

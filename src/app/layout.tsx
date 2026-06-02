@@ -2,19 +2,12 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Anvié — Start living in English",
-  description:
-    "Anvié is a premium English-speaking space with speaking practice, community, buddy-system, live feedback and personal growth through real communication.",
-  openGraph: {
-    title: "Anvié — Start living in English",
-    description: "Not lessons. A new English-speaking environment.",
-    type: "website",
-  },
+  title: "Anvié",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="ru" suppressHydrationWarning>
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />

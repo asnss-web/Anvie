@@ -1,14 +1,9 @@
 "use client";
 import { useRef } from "react";
-
-const reviews = [
-  { mark: "Lena", role: "Berlin · Designer", text: "I'd done courses for years. After three weeks at Anvié I was speaking — not perfectly, but actually speaking, in real conversations. The buddy system changed everything." },
-  { mark: "Maya", role: "Lisbon · IT",       text: "It feels like a small club. The chat runs in English from morning to night and somehow that makes the language not scary anymore." },
-  { mark: "Sasha", role: "Toronto · Marketing", text: "I expected lessons. I got an environment. After two months I caught myself thinking in English on the metro and laughing about it." },
-  { mark: "Karina", role: "Dubai · Founder", text: "The Elite format is wildly worth it. Daily voice feedback rewires how you actually sound — not how you look on paper." },
-];
+import { useT } from "@/i18n/context";
 
 export default function Reviews() {
+  const { t } = useT();
   const trackRef = useRef<HTMLDivElement>(null);
 
   const scroll = (dir: number) =>
@@ -19,9 +14,9 @@ export default function Reviews() {
       <div className="container">
         <div className="reviews__head">
           <div>
-            <span className="eyebrow" style={{ color: "var(--champagne)" }}>08 — The Voices</span>
+            <span className="eyebrow" style={{ color: "var(--champagne)" }}>{t.reviews.eyebrow}</span>
             <h2 className="reviews__title display" style={{ marginTop: 20 }}>
-              Early stories from <em>the space.</em>
+              {t.reviews.titleLine1} <em>{t.reviews.titleEm}</em>
             </h2>
           </div>
           <div className="reviews__nav">
@@ -38,7 +33,7 @@ export default function Reviews() {
           </div>
         </div>
         <div className="reviews__track" ref={trackRef}>
-          {reviews.map((r, i) => (
+          {t.reviews.list.map((r, i) => (
             <div className="review" key={i}>
               <div className="review__mark">&ldquo;</div>
               <div className="review__text">{r.text}</div>

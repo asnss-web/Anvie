@@ -1,35 +1,23 @@
-const school = [
-  "Same program for everyone",
-  "School atmosphere",
-  "Little real speaking time",
-  "No community outside lessons",
-  "Teacher-centered",
-  "Focus on rules, not voice",
-];
-const anvie = [
-  "Adaptive formats — fitted to you",
-  "Premium, intimate community",
-  "Constant speaking + buddy practice",
-  "Always-on chat & cinema nights",
-  "You-centered — your goals, your life",
-  "Real communication first",
-];
+"use client";
+import { useT } from "@/i18n/context";
 
 export default function Compare() {
+  const { t } = useT();
   return (
     <section className="section cream">
       <div className="container">
         <div className="compare__head">
-          <span className="eyebrow" style={{ color: "var(--burgundy)" }}>05 — The Difference</span>
+          <span className="eyebrow" style={{ color: "var(--burgundy)" }}>{t.compare.eyebrow}</span>
           <h2 className="compare__title display" style={{ marginTop: 16 }}>
-            Not a mass school.<br />Not a recorded course.<br /><em>An environment.</em>
+            {t.compare.titleLine1}<br />{t.compare.titleLine2}<br />
+            <em>{t.compare.titleEm}</em>
           </h2>
         </div>
         <div className="compare">
           <div className="compare__col compare__col--school">
-            <h3 className="compare__h">The typical school</h3>
+            <h3 className="compare__h">{t.compare.schoolH}</h3>
             <div className="compare__list">
-              {school.map((s, i) => (
+              {t.compare.school.map((s, i) => (
                 <div className="compare__item" key={i}>
                   <span className="compare__mark">×</span>
                   {s}
@@ -38,9 +26,9 @@ export default function Compare() {
             </div>
           </div>
           <div className="compare__col compare__col--anvie">
-            <h3 className="compare__h">Anvié, <em>instead</em></h3>
+            <h3 className="compare__h">{t.compare.anvieH} <em>{t.compare.anvieHEm}</em></h3>
             <div className="compare__list">
-              {anvie.map((s, i) => (
+              {t.compare.anvie.map((s, i) => (
                 <div className="compare__item" key={i}>
                   <span className="compare__mark">✓</span>
                   {s}

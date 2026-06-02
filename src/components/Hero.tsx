@@ -1,7 +1,10 @@
 "use client";
 import Image from "next/image";
+import { useT } from "@/i18n/context";
 
 export default function Hero() {
+  const { t } = useT();
+
   const scrollTo = (id: string) =>
     document.getElementById(id)?.scrollIntoView({ behavior: "smooth", block: "start" });
 
@@ -11,33 +14,30 @@ export default function Hero() {
       <div className="container">
         <div className="hero__inner">
           <div className="hero__copy">
-            <span className="hero__eyebrow eyebrow">Premium English Lifestyle Space · Est. 2026</span>
+            <span className="hero__eyebrow eyebrow">{t.hero.eyebrow}</span>
             <h1 className="hero__title display">
-              Start living<br />
-              <em>in</em> English.
+              {t.hero.titleLine1}<br />
+              <em>{t.hero.titleEm}</em> {t.hero.titleLine2}
             </h1>
-            <p className="hero__sub">
-              Anvié is not another school. It&apos;s an environment where speaking becomes natural,
-              community becomes home, and English becomes the language of the life you actually want.
-            </p>
+            <p className="hero__sub">{t.hero.sub}</p>
             <div className="hero__ctas">
               <button className="btn btn--primary" onClick={() => scrollTo("tariffs")}>
-                Choose your format <span className="btn__arrow">→</span>
+                {t.hero.ctaPrimary} <span className="btn__arrow">→</span>
               </button>
-              <button className="btn btn--ghost" onClick={() => scrollTo("apply")}>Apply to join</button>
+              <button className="btn btn--ghost" onClick={() => scrollTo("apply")}>{t.hero.ctaGhost}</button>
             </div>
             <div className="hero__meta">
-              <div className="hero__meta-item"><strong>5</strong><span>Formats</span></div>
-              <div className="hero__meta-item"><strong>EU · US</strong><span>Mentors</span></div>
-              <div className="hero__meta-item"><strong>18–35</strong><span>Community</span></div>
-              <div className="hero__meta-item"><strong>2</strong><span>Elite spots / mo</span></div>
+              <div className="hero__meta-item"><strong>5</strong><span>{t.hero.statsFormats}</span></div>
+              <div className="hero__meta-item"><strong>EU · US</strong><span>{t.hero.statsMentors}</span></div>
+              <div className="hero__meta-item"><strong>18–35</strong><span>{t.hero.statsCommunity}</span></div>
+              <div className="hero__meta-item"><strong>2</strong><span>{t.hero.statsElite}</span></div>
             </div>
           </div>
 
           <div className="hero__visual">
             <div className="hero__photo">
               <Image
-                src="/Anvie/hero-portrait.png"
+                src="/hero-portrait.png"
                 alt="Anvié — Editorial portrait"
                 fill
                 style={{ objectFit: "cover", objectPosition: "center top" }}
@@ -45,9 +45,9 @@ export default function Hero() {
               />
             </div>
             <div className="hero__caption">
-              <div className="hero__cap-quote">&ldquo;Not a course. <em>A new English-speaking life.</em>&rdquo;</div>
+              <div className="hero__cap-quote">&ldquo;{t.hero.caption}&rdquo;</div>
             </div>
-            <span className="hero__cap-meta">No. 01 — The Space</span>
+            <span className="hero__cap-meta">{t.hero.capMeta}</span>
           </div>
         </div>
       </div>

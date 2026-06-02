@@ -76,15 +76,29 @@ img { display: block; max-width: 100%; }
 .nav__links a:hover { color: var(--cream); }
 .nav__cta { padding: 10px 22px; border: 1px solid var(--champagne); color: var(--cream); font-size: 11px; letter-spacing: 0.24em; text-transform: uppercase; border-radius: 999px; transition: all 0.2s; background: none; cursor: pointer; }
 .nav__cta:hover { background: var(--champagne); color: var(--ink); }
+.nav__actions { display: flex; align-items: center; gap: 16px; }
 .nav__burger { display: none; flex-direction: column; gap: 4px; background: none; border: none; cursor: pointer; }
 .nav__burger span { width: 22px; height: 1px; background: var(--cream); display: block; }
 
 @media (max-width: 880px) {
   .nav { padding: 16px 24px; }
   .nav.scrolled { padding: 12px 24px; }
-  .nav__links, .nav__cta { display: none; }
+  .nav__links, .nav__actions { display: none; }
   .nav__burger { display: flex; }
 }
+
+/* ---------- LANG SWITCHER ---------- */
+.lang-switcher { display: flex; align-items: center; gap: 4px; }
+.lang-switcher__btn {
+  font-family: 'Inter', sans-serif;
+  font-size: 10px; letter-spacing: 0.22em; font-weight: 500;
+  color: var(--text-muted);
+  transition: color 0.2s;
+  padding: 4px 6px;
+}
+.lang-switcher__btn:hover { color: var(--cream); }
+.lang-switcher__btn--active { color: var(--champagne); }
+.lang-switcher__sep { font-size: 10px; color: var(--text-muted); }
 
 /* ---------- HERO ---------- */
 .hero {
@@ -448,6 +462,10 @@ img { display: block; max-width: 100%; }
 .who-card__text { font-family: 'Cormorant Garamond', serif; font-size: 24px; line-height: 1.2; color: var(--ink); font-weight: 400; margin-top: auto; }
 
 @media (max-width: 880px) { .who__list { grid-template-columns: 1fr; } }
+
+.who__photos { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 56px; height: 480px; }
+.who__photo { position: relative; overflow: hidden; }
+@media (max-width: 640px) { .who__photos { grid-template-columns: 1fr; height: auto; } .who__photo { height: 320px; } }
 
 /* ---------- REVIEWS ---------- */
 .reviews__head { display: flex; align-items: end; justify-content: space-between; gap: 32px; margin-bottom: 56px; flex-wrap: wrap; }
