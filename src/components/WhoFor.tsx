@@ -21,10 +21,10 @@ export default function WhoFor() {
         </div>
         <div className="who__photos">
           <div className="who__photo">
-            <Image src="/photo-2.jpg" alt="Anvié — Editorial" fill style={{ objectFit: "cover", objectPosition: "center 15%" }} />
+            <Image src="/photo-2.jpg" alt="Anvié — Editorial" fill style={{ objectFit: "cover", objectPosition: "center 38%" }} />
           </div>
           <div className="who__photo">
-            <Image src="/photo-3.jpg" alt="Anvié — Editorial" fill style={{ objectFit: "cover", objectPosition: "center 10%" }} />
+            <Image src="/photo-3.jpg" alt="Anvié — Editorial" fill style={{ objectFit: "cover", objectPosition: "center 30%" }} />
           </div>
         </div>
       </div>
