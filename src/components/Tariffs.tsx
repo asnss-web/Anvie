@@ -40,18 +40,13 @@ export default function Tariffs({ onChoose }: TariffsProps) {
                 <span className="tariff__price-num">{tariff.price}</span>
                 <span className="tariff__price-per">{t.tariffs.perMonth}</span>
               </div>
-              <p className="tariff__for">{tariff.for}</p>
               <div className="tariff__features">
-                {tariff.features.map((f, i) => (
+                {tariff.features.slice(0, 4).map((f, i) => (
                   <div className="tariff__feature" key={i}>{f}</div>
                 ))}
               </div>
-              <div className="tariff__result">
-                <div className="tariff__result-label">{t.tariffs.resultLabel}</div>
-                <div className="tariff__result-text">{tariff.result}</div>
-              </div>
               <div className="tariff__cta">
-                {tariff.elite ? `${tariff.id} →` : `${tariff.id} →`}
+                {tariff.id} →
               </div>
             </div>
           ))}
