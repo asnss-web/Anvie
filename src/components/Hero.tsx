@@ -40,7 +40,7 @@ export default function Hero() {
                 src="/hero-portrait.png"
                 alt="Anvié — Editorial portrait"
                 fill
-                style={{ objectFit: "cover", objectPosition: "center top" }}
+                style={{ objectFit: "cover", objectPosition: "center 30%" }}
                 priority
               />
             </div>
